@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+   body{
+  position: relative;
+  width: 100%;
+  background: #EBE9F9;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+   }
+  
+   .header nav{
+      width: 100%;
+   }
+  
+   .header nav img{
+      /* images__1_-removebg-preview 1 */
+  
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 104px;
+  top: 43px;
+   }
+  
+   .header nav h3{
+      /* phantom */
+  
+  position: absolute;
+  width: 133px;
+  height: 36px;
+  left: 168px;
+  top: 44px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #000000;
+   }
+  
+   .header nav ul{
+      /* nav menu */
+  position: relative;
+  width: 450px;
+  height: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 57px;
+   }
+  
+   nav ul li{
+      /* Security */
+  display: inline;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 15px;
+  
+   }
+  
+  
+  
+   nav ul li a{
+      text-decoration: none;
+      color: #000000;
+   }
+  
+  
+   nav .menu img{
+      display: none;
+   }
+  
+  
+   nav button{
+      /* Nav btn */
+  position: absolute;
+  width: 160px;
+  height: 65px;
+  float: right;
+  top: 39px;
+  right: 104px;
+  background: #AB9FF1;
+  border-radius: 50px;
+  font-weight: 500px;
+  font-size: 20px;
+  color: #000000;
+  border: none;
+   }
+
+   .hero h1{
+      /* Header ! */
+
+position: relative;
+width: 612px;
+height: 97px;
+top: 257px;
+margin-left: auto;
+margin-right: auto;
+font-weight: 500px;
+font-size: 80px;
+line-height: 97px;
+color: #352A75;
+ }
+
+ .wallet{
+   /* wallet section */
+
+position: relative;
+width: 800px;
+height: 388px;
+top: 398px;
+margin-left: auto;
+margin-right: auto;
+ }
+
+ .wallet h2{
+   /* Your phantom wallet has been connected */
+
+position: absolute;
+width: 830px;
+height: 48px;
+font-weight: 600px;
+font-size: 40px;
+line-height: 48px;
+color: #201752;
+ }
+
+ .wallet .p1{
+   /* Dratp.....fik */
+
+position: absolute;
+width: 214px;
+height: 48px;
+left: calc(50% - 214px/2);
+top: 100px;
+font-weight: 600px;
+font-size: 40px;
+line-height: 48px;
+color: #9795A0;
+ }
+
+ .wallet .p2{
+   /* Claim your 10000paws at 19th march 2024 */
+
+position: absolute;
+width: 645px;
+height: 33px;
+left: calc(50% - 645px/2 + 0.5px);
+top: 250px;
+font-weight: 500px;
+font-size: 27px;
+line-height: 33px;
+letter-spacing: 0.08em;
+color: #3D375F;
+ }
+
+
+
+ .wallet .p2 span{
+   font-weight: bold !important;
+   color: #000000;
+ }
+
+
+ .wallet button{
+   /* Rectangle 36 */
+
+position: absolute;
+width: 383px;
+height: 84px;
+left: calc(50% - 383px/2 + 0.5px);
+top: 370px;
+background: #D6D0FB;
+border-radius: 50px;
+font-weight: 500px;
+font-size: 35px;
+line-height: 42px;
+border: none;
+color: #A2A1A8;
+ }
+
+ footer{
+   /* footer */
+
+position: relative;
+width: 253px;
+height: 85px;
+top: 750px;
+margin-left: auto;
+margin-right: auto;
+ }
+
+ footer .phantom img{
+   /* phantom footer */
+
+position: absolute;
+width: 75px;
+height: 62.84px;
+ }
+
+ footer .star img{
+   /* Headr2 */
+
+position: absolute;
+left: 44.1%;
+top: 20px;
+width: 30px;
+height: 30px;
+ }
+
+ footer .Paws img{
+   /* download-removebg-preview 2 */
+
+position: absolute;
+width: 90px;
+height: 85px;
+right: 0px;
+top: -10px
+
+ }
+
+ @media only screen  and (max-width: 1024px) {
+
+
+   body{
+      width: 100%;
+   }
+
+   .header ul, .btn{
+      display: none;
+  }
+
+  nav .menu img{
+      /* Vector */
+display: block;
+position: absolute;
+left: 87.01%;
+right: 8.11%;
+top: 50px;
+bottom: 94%;
+  }
+
+ }
+
+
+ @media only screen and (max-width: 430px) {
+
+
+body{
+   width: 100%;
+}
+
+.header nav img{
+   /* images__1_-removebg-preview 3 */
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 39px;
+top: 64px;
+}
+
+.header nav h3{
+   /* phantom */
+
+position: absolute;
+width: 89px;
+height: 24px;
+left: 75px;
+top: 64px;
+font-weight: 800px;
+font-size: 20px;
+}
+
+.header nav .menu img{
+   /* Vector */
+position: absolute;
+left: 354px;
+top: 60px;
+width: 40px;
+height: 38px;
+}
+
+
+.hero h1{
+   /* Congratulations */
+
+position: relative;
+width: 306px;
+height: 48px;
+top: 219px;
+font-size: 40px;
+line-height: 48px;
+color: #352A75;
+margin-left: auto;
+margin-right: auto;
+}
+
+.wallet{
+   /* wallet section phone */
+
+position: relative;
+width: 358px;
+height: 295px;
+top: 250px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.wallet h2{
+   /* Your phantom wallet has been connected */
+
+position: absolute;
+width: 302px;
+height: 48px;
+left: 26px;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+}
+
+.wallet .p1{
+   /* Dratp.....fik */
+
+position: absolute;
+width: 107px;
+height: 24px;
+left: calc(50% - 107px/2 + 0.5px);
+top: 70px;
+font-size: 20px;
+line-height: 24px;
+}
+
+.wallet .p2{
+   /* Claim your 10000paws at 19th march 2024 */
+
+position: absolute;
+width: 358px;
+height: 18px;
+left: calc(50% - 358px/2 - 2px);
+top: 140px;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.08em;
+}
+
+.wallet button{
+   /* Rectangle 38 */
+
+position: absolute;
+width: 275px;
+height: 60px;
+left: 36px;
+top: 240px;
+background: #D6D0FB;
+border-radius: 50px;
+font-size: 25px;
+}
+
+
+footer{
+   /* footer */
+
+position: absolute;
+width: 137px;
+height: 51px;
+left: calc(50% - 137px/2 + 0.5px);
+top: 750px;
+}
+
+footer .phantom img{
+   /* images-removebg-preview 3 */
+
+position: absolute;
+width: 49px;
+height: 41px
+}
+
+footer .star img{
+   /* Headr2 */
+
+position: absolute;
+left: 43.14%;
+right: 47.44%;
+top: 10px;
+width: 19px;
+height: 19px;
+
+}
+
+footer .Paws img{
+   /* download-removebg-preview 2 */
+
+position: absolute;
+width: 54px;
+height: 51px;
+right: 0px;
+top: -4px;
+}
+
+ }
+
+ @media only screen and (max-width: 375px) {
+
+   body{
+      width: 100%;
+   }
+
+   .header nav img{
+      left: 20px;
+   }
+
+.header nav h3{
+   left: 60px;
+}
+
+.header nav .menu img{
+   left: 320px;
+}
+
+.wallet .p2{
+   text-align: center;
+}
+
+ }
+
+ @media only screen and (min-width: 360px) and (max-width: 390px) {
+
+body{
+   width: 100%;
+}
+
+.header nav .menu img{
+   left: 300px;
+}
+
+ }
+
+
+
+

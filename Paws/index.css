@@ -1,0 +1,802 @@
+ 
+ 
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ 
+ body{
+position: relative;
+width: 100%;
+background: #EBE9F9;
+font-family: 'Inter', sans-serif;
+overflow-x: hidden;
+ }
+
+ .header nav{
+    width: 100%;
+ }
+
+ .header nav img{
+    /* images__1_-removebg-preview 1 */
+
+position: absolute;
+width: 46px;
+height: 46px;
+left: 104px;
+top: 43px;
+ }
+
+ .header nav h3{
+    /* phantom */
+
+position: absolute;
+width: 133px;
+height: 36px;
+left: 168px;
+top: 44px;
+font-weight: 800;
+font-size: 30px;
+color: #000000;
+ }
+
+ .header nav ul{
+    /* nav menu */
+position: relative;
+width: 450px;
+height: 18px;
+margin-left: auto;
+margin-right: auto;
+top: 57px;
+ }
+
+ nav ul li{
+    /* Security */
+display: inline;
+margin-left: 50px;
+font-weight: 500;
+font-size: 15px;
+
+ }
+
+
+
+ nav ul li a{
+    text-decoration: none;
+    color: #000000;
+ }
+
+
+ nav .menu img{
+    display: none;
+ }
+
+
+ nav button{
+    /* Nav btn */
+position: absolute;
+width: 160px;
+height: 65px;
+float: right;
+top: 39px;
+right: 104px;
+background: #AB9FF1;
+border-radius: 50px;
+font-weight: 500px;
+font-size: 20px;
+color: #000000;
+border: none;
+ }
+
+ .hero-section{
+    /* hero section */
+position: relative;
+width: 814px;
+height: 285px;
+margin-left: auto;
+margin-right: auto;
+top: 245px;
+ }
+
+
+
+
+ .hero-section p{
+    /* The crypto wallet that’ll take you places */
+
+position: absolute;
+width: 444px;
+height: 24px;
+left: calc(50% - 444px/2);
+font-weight: 500px;
+font-size: 20px;
+letter-spacing: 0.08em;
+color: #5A4E9F;
+ }
+
+
+ .hero-section .your h1{
+    /* Your */
+
+position: absolute;
+width: 262px;
+height: 145px;
+top: 20px;
+font-weight: 500px;
+font-size: 120px;
+line-height: 145px;
+color: #352A75;
+ }
+
+ .hero-section img{
+    /* images-removebg-preview 1 */
+
+position: absolute;
+width: 92px;
+height: 77px;
+left: 275px;
+top: 60px;
+ }
+
+ .hero-section .trusted h1{
+    /* trusted */
+
+position: absolute;
+width: 416px;
+height: 132px;
+left: 400px;
+top: 20px;
+font-weight: 500px;
+font-size: 120px;
+line-height: 145px;
+color: #352A75;
+ }
+
+.hero-section .companion h1{
+    /* companion */
+
+position: absolute;
+width: 635px;
+height: 145px;
+left: 100px;
+top: 130px;
+font-weight: 500px;
+font-size: 120px;
+line-height: 145px;
+color: #352A75;
+}
+
+
+.give-away{
+    /* Group */
+
+position: relative;
+width: 515px;
+height: 68px;
+top: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.give-away .Phantonblue img{
+    /* images-removebg-preview 2 */
+
+position: absolute;
+width: 67px;
+height: 56px;
+left: 0px;
+}
+
+
+.give-away .Phantonblue h2{
+    /* phantom */
+
+/* phantom */
+
+position: absolute;
+width: 173px;
+height: 48px;
+left: 87px;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #201752;
+}
+
+.give-away .star img{
+    /* Headr2 */
+position: absolute;
+left: 280px;
+top: 10px;
+height: 30px;
+width: 30px;
+}
+
+.give-away .Paws img{
+    /* download-removebg-preview 1 */
+
+position: absolute;
+width: 72px;
+height: 68px;
+left: 330px;
+top: -10px;
+}
+
+.give-away .Paws h2{
+    /* Paws */
+
+position: absolute;
+width: 104px;
+height: 48px;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #231F20;
+right: 0px;
+}
+
+
+.users{
+    /* users section */
+
+position: relative;
+width: 966px;
+height: 219px;
+top: 450px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+
+.users .p1{
+    /* We’re giving 10000 worth of Paws to each phantom wallet users */
+
+position: absolute;
+width: 966px;
+height: 33px;
+font-weight: 500px;
+font-size: 25px;
+letter-spacing: 0.08em;
+color: #3D375F;
+}
+
+.users .p1 span{
+    font-weight: bold !important;
+    color: #1e1a33;
+}
+
+
+.users h4{
+  /* Eligibility */
+
+position: absolute;
+width: 110px;
+height: 30px;
+left: calc(50% - 110px/2 - 4px);
+top: 120px;
+font-weight: 600px;
+font-size: 25px;
+line-height: 30px;
+
+color: #201752;
+
+  
+}
+
+
+.users .bullet img{
+    /* Ellipse 9 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 109px;
+top: 230px;
+background: #524C7B;
+transform: rotate(180deg);
+border-radius: 50%;
+}
+
+.users .bullet p{
+    /* Users must have five different crypto asserts worth 20usdt each on their phantom wallet. */
+
+position: absolute;
+width: 760px;
+height: 48px;
+left: calc(50% - 760px/2 + 43px);
+top: 230px;
+font-weight: 500px;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.08em;
+color: #5A5962;
+}
+
+
+.input{
+    /* input section */
+
+position: relative;
+width: 760px;
+height: 620px;
+top: 650px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.input p{
+    /* Input your phantom wallet phrase to connect your wallet */
+
+position: absolute;
+width: 636px;
+height: 24px;
+left: calc(50% - 636px/2 - 62px);
+font-weight: 500px;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.08em;
+color: #5A5962;
+}
+
+input {
+    /* Rectangle 35 */
+position: absolute;
+width: 760px;
+height: 436px;
+top: 34px;
+background: #FFFFFF;
+border: 1px solid #352A75;
+border-radius: 20px;
+}
+
+.input button{
+    /* connect wallet bnt */
+
+position: relative;
+width: 518px;
+height: 84px;
+top: 500px;
+left: 121px;
+background: #AB9FF1;
+border-radius: 50px;
+border: none;
+font-weight: 500px;
+font-size: 30px;
+color: #000000;
+}
+
+.footer{
+    /* footer */
+
+position: relative;
+width: 253px;
+height: 85px;
+top: 830px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.footer .Phantonblue img{
+    /* phantom footer */
+
+position: absolute;
+width: 75px;
+height: 62.84px;
+}
+
+.footer .star img{
+    /* Headr2 */
+
+position: absolute;
+left: 113px;
+top: 10px;
+bottom: 6.77%;
+height: 30px;
+width: 30px;
+}
+
+.footer .Paws img{
+    /* download-removebg-preview 2 */
+
+position: absolute;
+width: 90px;
+height: 85px;
+left: 175px;
+top:-10px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    body{
+        width: 100%;
+    }
+
+    .header ul, .btn{
+        display: none;
+    }
+
+    nav .menu img{
+        /* Vector */
+display: block;
+position: absolute;
+left: 87.01%;
+right: 8.11%;
+top: 3.8%;
+bottom: 94%;
+    }
+
+
+    .hero-section{
+        margin-left: auto;
+        margin-left: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 430px) {
+
+    body{
+        width: 100%;
+    }
+
+    .header nav img{
+        /* images__1_-removebg-preview 3 */
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 39px;
+top: 64px;
+    }
+
+    .header nav h3{
+        /* phantom */
+
+position: absolute;
+width: 89px;
+height: 24px;
+left: 75px;
+top: 64px;
+font-weight: 800px;
+font-size: 20px;
+    }
+
+ .header nav .menu img{
+        /* Vector */
+position: absolute;
+left: 354px;
+top: 60px;
+width: 40px;
+height: 38px;
+}
+
+.hero-section{
+    /* hero section phone */
+position: relative;
+width: 354px;
+height: 135px;
+top: 206px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hero-section p{
+    /* The crypto wallet that’ll take you places */
+
+position: absolute;
+width: 333px;
+height: 18px;
+left: calc(50% - 333px/2 + 0.5px);
+font-size: 15px;
+letter-spacing: 0.08em;
+}
+
+.hero-section .your h1{
+    /* Your */
+
+position: absolute;
+width: 114px;
+height: 61px;
+top: -10px;
+font-size: 50px;
+}
+
+.hero-section img{
+    /* images-removebg-preview 1 */
+
+position: absolute;
+width: 47.47px;
+height: 39.56px;
+left: 120px;
+top: 50px;
+}
+
+.hero-section .trusted h1{
+    /* trusted */
+
+position: absolute;
+width: 174px;
+height: 61px;
+top: -10px;
+font-size: 50px;
+left: 181px;
+}
+
+.hero-section .companion h1{
+    /* companion */
+
+position: absolute;
+width: 269.5px;
+height: 60px;
+left: 50px;
+top: 50px;
+font-size: 50px;
+}
+
+.give-away{
+    /* Group 3 */
+
+position: absolute;
+width: 271px;
+height: 38px;
+top: 414px;
+margin-left: auto;
+margin-left: auto;
+}
+
+.give-away .Phantonblue img{
+    /* images-removebg-preview 2 */
+
+position: absolute;
+width: 37px;
+height: 31px;
+left: 77px;
+}
+
+.give-away .Phantonblue h2{
+    /* phantom */
+
+position: absolute;
+width: 87px;
+height: 24px;
+left: 124px;
+top:-10px;
+font-size: 20px;
+}
+
+
+.give-away .star img{
+    /* Headr2 */
+
+position: absolute;
+left: 220px;
+top: 8px;
+width: 15px;
+height: 15px;
+}
+
+.give-away .Paws img{
+    /* download-removebg-preview 1 */
+
+position: absolute;
+width: 40px;
+height: 38px;
+left: 248px;
+top: -2px;
+}
+
+.give-away .Paws h2{
+    /* Paws */
+
+position: absolute;
+width: 52px;
+height: 24px;
+left: 296px;
+top: -8px;
+font-size: 20px;
+}
+
+
+.users{
+    /* Group 6 */
+
+position: absolute;
+width: 396px;
+height: 183px;
+left: 14px;
+top: 490px;
+}
+
+.users .p1{
+/* We’re giving 10000 worth of Paws to each phantom wallet users */
+
+position: absolute;
+width: 356px;
+height: 36px;
+left: calc(50% - 356px/2);
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.08em;
+}
+
+.users h4{
+    /* Eligibility */
+
+position: absolute;
+width: 88px;
+height: 24px;
+left: calc(50% - 88px/2 - 3px);
+top: 60px;
+font-size: 20px;
+line-height: 24px;
+}
+
+.users .bullet{
+   /* Ellipse 11 */
+
+position: absolute;
+width: 13px;
+height: 13px;
+left: -110px;
+top: -100px;
+}
+
+.users .bullet p{
+    /* Users must have five different crypto asserts worth 20usdt each on their phantom wallet. */
+
+position: absolute;
+width: 365px;
+height: 54px;
+left: 130px;
+top: 225px;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.08em;
+}
+
+
+.input{
+    /* input phone */
+
+position: absolute;
+width: 391px;
+height: 466px;
+left: 27px;
+top: 761px;
+}
+
+.input p{
+    /* Input your phantom wallet phrase to connect your wallet */
+
+position: absolute;
+width: 381px;
+height: 36px;
+left: 10px;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.08em;
+}
+
+input{
+    /* Rectangle 38 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 367px;
+height: 336px;
+left: calc(50% - 367px/2 - 4.5px);
+top: 40px;
+background: #FFFFFF;
+border: 1px solid #352A75;
+border-radius: 20px;
+}
+
+.input button{
+    /* Rectangle 38 */
+
+position: absolute;
+width: 314px;
+height: 60px;
+top: 400px;
+border-radius: 50px;
+left: 30px;
+font-size: 20px;
+line-height: 24px;
+font-weight: 500px !important;
+}
+
+.footer{
+    /* footer */
+
+position: absolute;
+width: 134px;
+height: 51px;
+left: calc(50% - 134px/2);
+top: 1350px;
+}
+
+.footer .Phantonblue img{
+    /* images-removebg-preview 3 */
+
+position: absolute;
+width: 49px;
+height: 41px;
+}
+
+.footer .star img{
+    /* Headr2 */
+
+position: absolute;
+left: 48.37%;
+height: 19px;
+width: 19px;
+}
+
+.footer .Paws img{
+    /* download-removebg-preview 2 */
+
+position: absolute;
+width: 54px;
+height: 51px;
+left: 95px;
+top: 0px;
+}
+
+@media only screen and (max-width: 375px){
+
+
+    body{
+        width: 100%;
+    }
+
+    .hero-section{
+        left: 30px;
+    }
+
+    .give-away{
+        left: auto;
+
+    }
+
+    .input p{
+        left: 0px;
+    }
+
+    input{
+        left: 0px;
+    }
+
+    .footer{
+       left: 140px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
